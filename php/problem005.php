@@ -6,8 +6,7 @@ What is the smallest positive number that is evenly divisible by all of the numb
 
 */
 
-
-
+///////////////////////////////////////////////////////////////////////////////////////////////////
 function bruteForce() {
   /*
 echo microtime(true),"\n";
@@ -36,6 +35,9 @@ echo microtime(true),"\n";
   }
   return $i;
 }
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 
 
@@ -76,7 +78,6 @@ function get_factors($value) {
   }
   return $factors;
 }
-
 
 function prime_factorization($value='') {
   for ($i=2; $i < 21; $i++) {
